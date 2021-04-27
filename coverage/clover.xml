@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619282411820" clover="3.2.0">
-  <project timestamp="1619282411820" name="All files">
-    <metrics statements="40" coveredstatements="10" conditionals="11" coveredconditionals="1" methods="13" coveredmethods="5" elements="64" coveredelements="16" complexity="0" loc="40" ncloc="40" packages="7" files="8" classes="8"/>
+<coverage generated="1619486728856" clover="3.2.0">
+  <project timestamp="1619486728856" name="All files">
+    <metrics statements="50" coveredstatements="49" conditionals="12" coveredconditionals="10" methods="14" coveredmethods="14" elements="76" coveredelements="73" complexity="0" loc="50" ncloc="50" packages="7" files="8" classes="8"/>
     <package name="src">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.js" path="/Users/waltuirsilvajunior/Desktop/project-1/src/index.js">
@@ -10,19 +10,22 @@
       </file>
     </package>
     <package name="src.components.Button">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.jsx" path="/Users/waltuirsilvajunior/Desktop/project-1/src/components/Button/index.jsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="5" type="stmt"/>
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="5" count="13" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.PostCard">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.jsx" path="/Users/waltuirsilvajunior/Desktop/project-1/src/components/PostCard/index.jsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="8" type="stmt"/>
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="35" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
       </file>
       <file name="mock.js" path="/Users/waltuirsilvajunior/Desktop/project-1/src/components/PostCard/mock.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -30,61 +33,68 @@
       </file>
     </package>
     <package name="src.components.Posts">
-      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.jsx" path="/Users/waltuirsilvajunior/Desktop/project-1/src/components/Posts/index.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="7" count="6" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="6" count="14" type="stmt"/>
+        <line num="9" count="33" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.TextInput">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.js" path="/Users/waltuirsilvajunior/Desktop/project-1/src/components/TextInput/index.js">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="36" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.templates.Home">
-      <metrics statements="20" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <metrics statements="24" coveredstatements="24" conditionals="10" coveredconditionals="10" methods="7" coveredmethods="7"/>
       <file name="index.jsx" path="/Users/waltuirsilvajunior/Desktop/project-1/src/templates/Home/index.jsx">
-        <metrics statements="20" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="55" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="61" count="0" type="stmt"/>
-        <line num="66" count="0" type="stmt"/>
+        <metrics statements="24" coveredstatements="24" conditionals="10" coveredconditionals="10" methods="7" coveredmethods="7"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="26" type="stmt"/>
+        <line num="38" count="26" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="42" count="33" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="25" type="stmt"/>
+        <line num="44" count="75" type="stmt"/>
+        <line num="47" count="8" type="stmt"/>
+        <line num="52" count="33" type="stmt"/>
+        <line num="53" count="33" type="stmt"/>
+        <line num="55" count="33" type="stmt"/>
+        <line num="57" count="33" type="stmt"/>
       </file>
     </package>
     <package name="src.utils">
-      <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="load-posts.js" path="/Users/waltuirsilvajunior/Desktop/project-1/src/utils/load-posts.js">
-        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
       </file>
     </package>
   </project>
