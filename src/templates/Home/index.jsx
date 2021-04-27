@@ -39,8 +39,8 @@ export class Home extends Component {
   };
 
   getPosts = (allPosts, searchValue, posts) => {
-    if (searchValue === false) {
-      allPosts.filter((post) => {
+    if (searchValue !== '') {
+      return allPosts.filter((post) => {
         return post.title.toLowerCase().includes(searchValue.toLocaleLowerCase());
       });
     } else {
